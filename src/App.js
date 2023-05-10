@@ -1,4 +1,4 @@
-import Navigation from './commponents/navigation/Navigation';
+import Navigation from './commponents/navigation/Navigation.jsx';
 
 function App() {
   return (

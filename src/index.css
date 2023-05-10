@@ -33,3 +33,6 @@ code {
   background: linear-gradient(221deg, rgba(151,155,185,1) 0%, rgba(137,224,160,1) 54%, rgba(95,212,126,1) 77%);
   color: var(--White);
 }
+li{
+  list-style-type: none;
+}

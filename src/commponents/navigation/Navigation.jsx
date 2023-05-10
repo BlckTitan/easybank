@@ -13,12 +13,17 @@ export default function Navigation() {
                 <img src={logo} alt="easybank logo; format: svg"/>
             </div>
 
-            <div className='links hidden xl:flex absolute xl:static'>
-                <a href="!#">Home</a>
-                <a href="!#">About</a>
-                <a href="!#">Contact</a>
-                <a href="!#">Blog</a>
-                <a href="!#">Careers</a>
+            <div className='links'>
+                <ul className={(toggle === true) ? 
+                    'flex flex-col xl:flex-row absolute xl:static top-20 xl:top-0 right-0 w-full h-48 rounded-md ' : 
+                    'hidden xl:flex flex-col xl:flex-row absolute xl:static'}
+                >
+                    <li><a href="!#">Home</a></li>
+                    <li><a href="!#">About</a></li>
+                    <li><a href="!#">Contact</a></li>
+                    <li><a href="!#">Blog</a></li>
+                    <li><a href="!#">Careers</a></li>
+                </ul>
             </div>
 
             <div className='hamburger'>
