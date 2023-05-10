@@ -1,0 +1,12 @@
+div.container{
+    background-color: var(--White);
+}
+nav.wrapper a{
+    margin: 0 1rem;
+    height: 4rem;
+    line-height: 4;
+    cursor: pointer;
+}
+nav.wrapper a:hover{
+    border-bottom: 4px solid var(--LimeGreen);
+}

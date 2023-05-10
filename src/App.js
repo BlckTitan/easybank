@@ -1,9 +1,9 @@
+import Navigation from './commponents/navigation/Navigation';
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-5xl font-bold underline">
-        Hello world!!!
-      </h1>
+    <div className="app">
+      <Navigation/>
     </div>
   );
 }
