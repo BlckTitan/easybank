@@ -24,12 +24,15 @@ ul{
     padding: 0.5em 0;
     border: 1px solid var(--LightGrayishBlue);
     background-color: var(--White);
+    -webkit-box-shadow: 0px 42px 9px 60px rgba(45,49,77,0.6); 
+    box-shadow: 0px 42px 9px 60px rgba(45,49,77,0.6);
 }
 @media screen and (min-width: 1280px){
     ul{
         padding: 0;
         border: 0;
         background-color: transparent;
+        box-shadow: none;
     }
     li{
         height: 4rem;
