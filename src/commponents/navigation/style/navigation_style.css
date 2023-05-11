@@ -1,5 +1,6 @@
 div.nav_container{
     background-color: var(--White);
+    z-index: 2;
 }
 nav.wrapper{
     background-color: var(--White);

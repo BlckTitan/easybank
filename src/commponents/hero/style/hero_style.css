@@ -21,6 +21,7 @@ section.heroText p{
     }
     section.heroImage > img{
         position: absolute;
-        right: -14rem;
+        top: -6rem;
+        right: -15rem;
     }
 }
