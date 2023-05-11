@@ -8,8 +8,8 @@ export default function Hero() {
     <div className='hero_container w-full flex justify-center'>
         <header className='wrapper flex flex-col-reverse xl:flex-row xl:justify-between'>
            <section className='heroText w-full xl:w-2/5  h-4/6 xl:h-full pt-8 xl:pt-0 flex flex-col justify-center items-start'>
-            <h1 className='text-3xl xl:text-5xl mb-4'>Next generation digital banking</h1>
-            <p className='text-lg mb-4'>
+            <h1 className='text-3xl xl:text-5xl mb-4 text-center md:text-left'>Next generation digital banking</h1>
+            <p className='text-lg mb-4 text-center md:text-left'>
                 Take your financial life online.
                 Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.
             </p>
