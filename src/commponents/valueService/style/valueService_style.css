@@ -61,6 +61,6 @@ div.valueItem_text > p{
     }
     div.valueService_container{
         background-color: var(--LightGrayishBlue);
-        height: fit-content;
+        height: 600px;
     }
 }
