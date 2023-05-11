@@ -1,4 +1,7 @@
-div.container{
+div.nav_container{
+    background-color: var(--White);
+}
+nav.wrapper{
     background-color: var(--White);
 }
 nav.wrapper a{
@@ -19,11 +22,13 @@ li:hover{
 ul{
     padding: 0.5em 0;
     border: 1px solid var(--LightGrayishBlue);
+    background-color: var(--White);
 }
 @media screen and (min-width: 1280px){
     ul{
         padding: 0;
         border: 0;
+        background-color: transparent;
     }
     li{
         height: 4rem;

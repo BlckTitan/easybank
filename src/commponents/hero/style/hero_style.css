@@ -1,0 +1,26 @@
+div.hero_container{
+    background-color: var(--VeryLightGray);
+    background-image: url('../../../images/bg-intro-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+section.heroText p{
+    color: var(--GrayishBlue);
+}
+/*section.heroImage{
+}*/
+@media screen and (min-width: 1280px){
+    div.hero_container{
+        background-color: var(--VeryLightGray);
+        background-image: url('../../../images/bg-intro-desktop.svg');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 50% 150%;
+    }
+    section.heroImage > img{
+        position: absolute;
+        right: -14rem;
+    }
+}
