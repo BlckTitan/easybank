@@ -1,16 +1,19 @@
 div.hero_container{
     background-color: var(--VeryLightGray);
     background-image: url('../../../images/bg-intro-mobile.svg');
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+    background-size: 100% 450px;
+    height: fit-content;
 }
 section.heroText p{
     color: var(--GrayishBlue);
 }
-/*section.heroImage{
-}*/
+section.heroImage > img{
+    position: relative;
+    top: 2rem;
+    
+}
 @media screen and (min-width: 1280px){
     div.hero_container{
         background-color: var(--VeryLightGray);
@@ -18,6 +21,7 @@ section.heroText p{
         background-position: right;
         background-repeat: no-repeat;
         background-size: 50% 150%;
+        height: 600px;
     }
     section.heroImage > img{
         position: absolute;
