@@ -3,6 +3,7 @@ import './style/hero_style.css';
 import imgHero from '../../images/image-mockups.png';
 
 export default function Hero() {
+
   return (
     <div className='hero_container w-full flex justify-center'>
         <header className='wrapper flex flex-col-reverse xl:flex-row xl:justify-between'>

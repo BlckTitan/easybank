@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './style/navigation_style.css';
 import logo from '../../images/logo.svg';
 import hamburger from '../../images/icon-hamburger.svg';
@@ -7,6 +7,14 @@ import closeIcon from '../../images/icon-close.svg';
 export default function Navigation() {
   const [toggle, setToggle] = useState(false)
 
+  const hideNavigation = () => {
+    setTimeout(() => {
+        setToggle(false)
+    }, 7000)
+  }
+  useEffect(() => {
+    hideNavigation()
+  }, [toggle])
   return (
     <div className='nav_container w-full h-16 flex justify-center fixed'>
         <nav className='wrapper h-16 flex justify-between items-center relative'>
