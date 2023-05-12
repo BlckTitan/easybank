@@ -4,7 +4,7 @@ div.hero_container{
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 100% 450px;
-    height: fit-content;
+    height: 50rem;
 }
 section.heroText p{
     color: var(--GrayishBlue);
@@ -13,6 +13,13 @@ section.heroImage > img{
     position: relative;
     top: 2rem;
     
+}
+@media screen and (min-width: 640px){
+    section.heroImage > img{
+        position: relative;
+        top: -3rem;
+        
+    }
 }
 @media screen and (min-width: 1280px){
     div.hero_container{
