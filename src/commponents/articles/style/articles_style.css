@@ -87,9 +87,9 @@ a.article_card:hover  div.card_body > h4{
     a.article_card{
         width: 20rem;
         margin-bottom: 0;
-        height: 52vh;
+        height: 38rem;
     }
     a.article_container{
-        height: 600px;
+        height: 700px;
     }
 }
