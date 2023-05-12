@@ -1,6 +1,7 @@
 import Navigation from './commponents/navigation/Navigation.jsx';
 import Hero from './commponents/hero/Hero.jsx';
 import ValueService from './commponents/valueService/ValueService.jsx';
+import Articles from './commponents/articles/Articles.jsx';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navigation/>
       <Hero/>
       <ValueService/>
+      <Articles/>
     </div>
   );
 }
