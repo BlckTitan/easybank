@@ -40,6 +40,7 @@ div.social_links a:hover img{
         font-weight: 600;
         font-size: 1.1rem;
         text-align: left;
+        margin-right: 1rem;
     }
     div.social_links a > img{
         margin-right: 0;
