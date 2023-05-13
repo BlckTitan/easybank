@@ -15,10 +15,10 @@ export default function Footer() {
         <section className='socials w-full xl:w-4/6 h-full flex flex-col  items-center md:flex-row xl:justify-between'>
           
           <div className='logo_socials w-2/5 h-full flex flex-col items-center xl:items-start xl:justify-between'>
-            <div className='logo w-fit h-fit bg-white py-4 xl:py-2 px-6 xl:px-4 rounded-full mb-16 xl:mb-0'>
-              <img src={logo} alt="Easybank logo format.svg" className='scale-150 xl:scale-110' />
+            <div className='logo w-fit h-fit bg-white py-4 xl:py-2 px-6 xl:px-4 rounded-full'>
+              <img src={logo} alt="Easybank logo format.svg" className='w-32 h-8  object-coverscale-150 xl:scale-110' />
             </div>
-            <div className='social_links w-full h-fit flex justify-start items-center'>
+            <div className='social_links w-full h-fit flex justify-center xl:justify-start items-center my-8 xl:my-0'>
               <a href="/#"><img src={facebook} alt="facebook logo format.svg" /></a>
               <a href="/#"><img src={youtube} alt="youtube logo format.svg" /></a>
               <a href="/#"><img src={twitter} alt="twitter logo format.svg" /></a>

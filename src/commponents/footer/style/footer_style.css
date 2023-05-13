@@ -22,10 +22,17 @@ div.social_links a{
 }
 div.social_links a > img{
     transform: scale(1.5);
+    margin: 0 1rem;
 }
 div.social_links a:hover img{
-    background-color: var(--LimeGreen);
-    color: var(--LimeGreen);
+    transform: scale(1.1);
+}
+@media screen and (min-width: 640px){
+    div.social_links a > img{
+        transform: scale(2);
+        width: 0;
+        height: 0;
+    }
 }
 @media screen and (min-width: 1280px){
     footer.footer_container{
@@ -35,5 +42,8 @@ div.social_links a:hover img{
         font-weight: 600;
         font-size: 1.1rem;
         text-align: left;
+    }
+    div.social_links a > img{
+        transform: scale(1.5);
     }
 }
