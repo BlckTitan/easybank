@@ -1,0 +1,39 @@
+footer.footer_container{
+    width: 100%;
+    height: 35rem;
+    background-color: var(--DarkBlue);
+    color: var(--white);
+}
+footer.footer_container section a{
+    color: var(--White);
+}
+section.links a{
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+section.links a:hover{
+    color: var(--LimeGreen);
+}
+div.social_links a{
+    margin-right: 1.5rem;
+    font-size: 2rem;
+}
+div.social_links a > img{
+    transform: scale(1.5);
+}
+div.social_links a:hover img{
+    background-color: var(--LimeGreen);
+    color: var(--LimeGreen);
+}
+@media screen and (min-width: 1280px){
+    footer.footer_container{
+        height: 18rem;
+    }
+    section.links a{
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+}
